@@ -1,0 +1,49 @@
+/* 🔹 พื้นหลังขาว เต็มจอ */
+.app-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Prompt", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 🔹 แถบด้านบน */
+.navbar {
+  background-color: #c86b6b;
+  display: flex;
+  justify-content: flex-end; /* 🔸 ย้ายปุ่มไปขวาสุด */
+  align-items: center;
+  padding: 10px 20px;
+}
+
+/* 🔹 ปุ่มแอดมิน */
+.admin-button {
+  background-color: white;
+  color: #c86b6b;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* 🔹 เอฟเฟกต์เมื่อเอาเมาส์วาง */
+.admin-button:hover {
+  background-color: #e6b1b1;
+  color: white;
+}
+
+/* 🔹 ส่วนเนื้อหา */
+.tab-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: #333;
+}
