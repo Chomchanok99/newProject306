@@ -1,4 +1,4 @@
-/* 🔹 พื้นหลังขาว เต็มจอ */
+/* 🔹 โครงสร้างหลัก */
 .app-container {
   width: 100vw;
   height: 100vh;
@@ -14,12 +14,12 @@
 .navbar {
   background-color: #c86b6b;
   display: flex;
-  justify-content: flex-end; /* 🔸 ย้ายปุ่มไปขวาสุด */
+  justify-content: flex-end;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px 30px;
 }
 
-/* 🔹 ปุ่มแอดมิน */
+/* 🔹 ปุ่มบน Navbar */
 .admin-button {
   background-color: white;
   color: #c86b6b;
@@ -32,18 +32,152 @@
   transition: all 0.3s ease;
 }
 
-/* 🔹 เอฟเฟกต์เมื่อเอาเมาส์วาง */
 .admin-button:hover {
   background-color: #e6b1b1;
   color: white;
 }
 
-/* 🔹 ส่วนเนื้อหา */
-.tab-content {
+/* 🔹 ส่วนแสดงรูป */
+.main-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+/* 🔹 รูปภาพตรงกลาง */
+.center-image {
+  width: 70%;
+  max-width: 850px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* 🔹 ปุ่มข้อมูลนักกีฬาใต้ภาพ */
+.button-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.info-button {
+  background-color: #c86b6b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.info-button:hover {
+  background-color: #b35353;
+}
+
+/* 🔹 หน้า Login */
+.login-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+
+/* 🔹 หน้า Login */
+.login-content {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
   color: #333;
+}
+
+/* ===== Login Page ===== */
+.login-page {
+  background-color: #e3e3e3; /* เทาอ่อนตามภาพ */
+}
+
+/* กล่องกลางหน้า */
+.login-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  color: #2e1b1b;
+}
+
+/* หัวข้อ Log in */
+.login-title {
+  font-size: 3.2rem;
+  font-weight: 600;
+  margin: 10px 0 24px;
+}
+
+/* ฟอร์มแบบกริด: label ซ้าย / input ขวา */
+.login-form {
+  display: grid;
+  grid-template-columns: 180px minmax(280px, 460px);
+  gap: 18px 22px; /* row gap / col gap */
+  align-items: center;
+  background: transparent;
+}
+
+/* ข้อความ label */
+.login-label {
+  font-size: 1rem;
+  color: #2e1b1b;
+}
+
+/* ช่องกรอกโทนแดงหม่น */
+.login-input {
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: #8f4444;           /* แดงหม่นเหมือนภาพ */
+  color: #ffffff;
+  padding: 0 12px;
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);
+}
+
+/* ปุ่ม ต่อไป → */
+.login-actions {
+  grid-column: 1 / -1;           /* กินเต็มแถว เพื่อให้ปุ่มอยู่กลาง */
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.login-submit {
+  min-width: 180px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  background: #3b0f0f;           /* น้ำตาลเข้มตามภาพปุ่ม */
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform .05s ease, opacity .2s ease;
+}
+
+.login-submit:hover { opacity: .9; }
+.login-submit:active { transform: translateY(1px); }
+
+/* ทำให้รองรับจอเล็ก */
+@media (max-width: 560px) {
+  .login-form {
+    grid-template-columns: 1fr;  /* label และ input เรียงลง */
+  }
+  .login-label { margin-top: 6px; }
 }
