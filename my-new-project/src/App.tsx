@@ -2,8 +2,9 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom'
 import Login from './Login'
 import Car from './Car'
+import CarDetail from './CarDetail'
 
-// หน้าแรก (Home)
+// หน้าแรก
 function Home() {
   const navigate = useNavigate()
 
@@ -37,6 +38,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/car" element={<Car />} />
+        <Route path="/car/:id" element={<CarDetail />} />
       </Routes>
     </Router>
   )

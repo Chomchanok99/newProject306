@@ -198,3 +198,89 @@
   }
   .login-label { margin-top: 6px; }
 }
+
+/* ===== Car Page ===== */
+.car-page {
+  background-color: white; /* ✅ เปลี่ยนเป็นพื้นหลังขาวทั้งหมด */
+}
+
+.car-container {
+  width: min(1200px, 92vw);
+  margin: 24px auto 40px;
+}
+
+.car-title {
+  text-align: center;
+  color: #2e1b1b;
+  font-weight: 700;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  margin-bottom: 22px;
+}
+
+.car-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 720px) {
+  .car-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.car-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.car-image-wrap {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #eee;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.car-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.car-caption {
+  margin-top: 10px;
+  background: #3b0f0f;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1rem;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.car-caption:hover {
+  background: #5b1b1b;
+  transform: scale(1.03);
+}
+
+/* ===== Detail Page ===== */
+.car-detail-page {
+  background-color: white;
+  text-align: center;
+}
+
+.detail-content {
+  margin-top: 60px;
+  color: #2e1b1b;
+}
+
+.detail-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
