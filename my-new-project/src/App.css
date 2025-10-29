@@ -78,6 +78,111 @@
 .info-button:hover {
   background-color: #b35353;
 }
+/* ===== Home – polished hero ===== */
+.home-shell{
+  width: min(1100px, 92vw);
+  margin: 44px auto 60px;
+  text-align: center;
+}
+
+.home-title{
+  font-size: clamp(2.2rem, 4vw, 3.2rem);
+  color:#2e1b1b;
+  font-weight: 800;
+  letter-spacing:.6px;
+  margin: 0 0 10px;
+}
+
+/* เส้นไฮไลต์ใต้หัวเรื่องแบบไล่เฉด */
+.title-underline{
+  display:block;
+  width: clamp(180px, 28vw, 360px);
+  height: 6px;
+  margin: 6px auto 26px;
+  border-radius: 999px;
+  background: linear-gradient(90deg,#3b0f0f 0%, #c86b6b 60%, #f0b4b4 100%);
+  box-shadow: 0 4px 14px rgba(200,107,107,.35);
+}
+
+.home-image {
+  width: min(600px, 60%);   /* 🔸 เดิม 720px, 50% → ลดลง */
+  max-width: 700px;         /* 🔸 จำกัดขนาดสูงสุด */
+  height: auto;
+  object-fit: cover;
+  border-radius: 18px;
+  outline: 1px solid rgba(0,0,0,.06);
+  box-shadow:
+    0 8px 20px rgba(0,0,0,.15),
+    0 2px 6px rgba(0,0,0,.06) inset;
+  transition: transform .35s ease, box-shadow .35s ease, outline-color .35s ease;
+  margin-top: 12px;
+}
+
+
+
+.home-image:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 18px 36px rgba(0,0,0,.20);
+  outline-color: rgba(59,15,15,.25);
+}
+
+.button-section.tight{
+  margin-top: 18px;
+}
+
+/* ปุ่มหลักโทนเดียวกับแบรนด์ */
+.info-button.primary{
+  background:#c86b6b;
+  color:#fff;
+  border:none;
+  border-radius: 999px;
+  padding: 12px 22px;
+  font-size: clamp(1rem, 1.6vw, 1.1rem);
+  font-weight: 700;
+  letter-spacing:.3px;
+  cursor:pointer;
+  box-shadow: 0 6px 16px rgba(200,107,107,.35);
+  transition: transform .06s ease, filter .2s ease, box-shadow .2s ease;
+}
+.info-button.primary:hover{ filter: brightness(1.04); }
+.info-button.primary:active{ transform: translateY(1px); }
+
+/* ให้พื้นหลังหน้าหลักขาวล้วน */
+.app-container{ background:#fff; }
+
+
+/* ===== Home Page Section ===== */
+.home-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.home-title {
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  color: #2e1b1b;
+  font-weight: 800;
+  margin-bottom: 24px;
+  letter-spacing: 0.5px;
+}
+
+.home-image {
+  width: min(900px, 85%);
+  height: auto;
+  border-radius: 14px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-image:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 12px 28px rgba(0, 0, 0, 0.25);
+}
+
+
 
 /* 🔹 หน้า Login */
 .login-container {
@@ -284,3 +389,4 @@
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
+

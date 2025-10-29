@@ -4,7 +4,7 @@ import Login from './Login'
 import Car from './Car'
 import CarDetail from './CarDetail'
 
-// หน้าแรก
+// หน้าแรก (Home)
 function Home() {
   const navigate = useNavigate()
 
@@ -14,19 +14,23 @@ function Home() {
         <button className="admin-button">แอดมิน</button>
       </nav>
 
-      <div className="main-content">
+      {/* ===== Hero Section ===== */}
+      <section className="home-shell">
+        <h1 className="home-title">รถแข่ง GT หรือ Gran Turismo</h1>
+        <span className="title-underline" />
+
         <img
           src="https://s.isanook.com/ga/0/ud/199/995409/995409-thumbnail.jpg?ip/crop/w670h402/q80/jpg"
-          alt="หน้าแรก"
-          className="center-image"
+          alt="Gran Turismo"
+          className="home-image"
         />
-      </div>
 
-      <div className="button-section">
-        <button className="info-button" onClick={() => navigate('/login')}>
-          ข้อมูลนักกีฬา
-        </button>
-      </div>
+        <div className="button-section tight">
+          <button className="info-button primary" onClick={() => navigate('/login')}>
+            ข้อมูลนักกีฬา
+          </button>
+        </div>
+      </section>
     </div>
   )
 }

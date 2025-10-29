@@ -21,8 +21,8 @@ const cars: CarItem[] = [
   },
   {
     id: 4,
-    title: 'Audi R8 LMS GT3 Evo IIII',
-    img: 'https://www.pcarmarket.com/static/media/uploads/galleries/photos/uploads/galleries/v-0018917-fl-eric-sattar-561-615-7222-2016-porsche-gt3-rs/.thumbnails/A-001.jpg/A-001-tiny-2048x0.jpg',
+    title: 'BMW M4 GT3',
+    img: 'https://www.topgear.com/sites/default/files/images/news-article/carousel/2021/06/162051f93f72377872b43add14df240c/p90424794_highres_maisach-ger-2nd-june.jpg',
   },
 ]
 
