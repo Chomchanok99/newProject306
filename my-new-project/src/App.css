@@ -390,3 +390,87 @@
   margin-bottom: 20px;
 }
 
+/* ===== Car Detail Page ===== */
+.detail-page{ background:#eee; }
+
+.detail-shell{
+  width: min(1200px, 94vw);
+  margin: 28px auto 60px;
+}
+
+.detail-title{
+  text-align:center;
+  color:#2e1b1b;
+  font-weight:800;
+  font-size: clamp(1.8rem, 3.2vw, 2.4rem);
+  margin: 8px 0 22px;
+}
+
+/* กริดนักแข่ง – 5 ใบ (2 คอลัมน์บนจอปกติ, 1 คอลัมน์บนมือถือ) */
+.driver-grid{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: clamp(16px, 2vw, 24px);
+}
+@media (max-width: 820px){
+  .driver-grid{ grid-template-columns: 1fr; }
+}
+
+/* การ์ดนักแข่ง */
+.driver-card{
+  background:#f6f6f6;
+  border-radius:14px;
+  padding: clamp(14px, 2vw, 18px);
+  box-shadow: 0 8px 18px rgba(0,0,0,.10);
+  border:1px solid rgba(0,0,0,.06);
+}
+
+/* ส่วนหัว – รูปนักแข่ง + ข้อมูล */
+.driver-header{
+  display:flex;
+  gap:16px;
+  align-items:flex-start;
+}
+.driver-portrait{
+  width: clamp(110px, 18vw, 160px);
+  height: clamp(110px, 18vw, 160px);
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0,0,0,.15);
+}
+.driver-meta{ flex:1; }
+.driver-name{
+  margin:0 0 4px;
+  font-size: clamp(1.05rem, 1.8vw, 1.3rem);
+  font-weight:800;
+  color:#2e1b1b;
+}
+.driver-team{
+  margin:0 0 6px;
+  color:#543232;
+  font-weight:700;
+}
+.driver-bio{
+  margin:0;
+  color:#4b4b4b;
+  line-height:1.55;
+}
+
+/* รูปรถด้านล่างของแต่ละคน */
+.car-thumb-grid{
+  margin-top:12px;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:10px;
+}
+@media (max-width: 520px){
+  .car-thumb-grid{ grid-template-columns: repeat(2, 1fr); }
+}
+.car-thumb{
+  width:100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-radius:10px;
+  box-shadow: 0 6px 14px rgba(0,0,0,.12);
+  background:#ddd;
+}
