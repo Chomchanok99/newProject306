@@ -21,58 +21,58 @@ const DB: Record<string, CarDetailData> = {
     title: "Mercedes-AMG GT3",
     drivers: [
       {
-        name: "H. Tanaka",
-        team: "AMG Team One",
-        number: "04",
-        bio: "สไตล์ขับดุดัน เน้น Late-brake และไลน์นอก",
+        name: "Maro Engel",
+        team: "Mercedes‑AMG",
+        number: "130",
+        bio: "Engel ชนะรายการใหญ่มากมาย เช่น FIA GT World Cup (2015, 2024) และ Macau Grand Prix GT Cup (2014, 2015, 2022, 2024)",
         portrait:
-          "https://images.unsplash.com/photo-1530648965273-6ea933b3b1b0?q=80&w=800&auto=format&fit=crop",
+          "https://www.motorsport-life.com/wp-content/uploads/2022/08/cc78db86-e7b2-40e6-9b19-82769f6eb110.jpg",
         carPhotos: [
-          "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?q=80&w=1200&auto=format&fit=crop",
+          "https://www.touringcartimes.com/img/2017/07/engel_race2_moscow_dtm_2017.jpg?w=785&h=442&fit=crop&fm=pjpg&q=80","https://www.touringcartimes.com/img/2018/02/engel_out_dtm_2018.jpg?w=785&h=442&fit=crop&fm=pjpg&q=80",
         ],
       },
       {
-        name: "M. Silva",
-        team: "AMG Junior",
-        number: "12",
-        bio: "ถนัดเซ็ตอัพล้อหลังให้ยึดเกาะสูงสำหรับ stint ยาว",
+        name: "Raffaele Marciello",
+        team: "AKKodis ASP",
+        number: "88",
+        bio: "ชนะรายการ 24 Hours of Spa กับรถ #88 และทีม AKKodis ASP ซึ่งถือเป็นหนึ่งในชัยชนะที่ยิ่งใหญ่ของเขาในสาย GT.",
         portrait:
-          "https://images.unsplash.com/photo-1547480053-3a2e20f07d94?q=80&w=800&auto=format&fit=crop",
+          "https://www.gt-world-challenge-europe.com/timthumb.php?w=700&src=%2Fimages%2Fdrivers%2Fphoto_3824.png",
         carPhotos: [
-          "https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?q=80&w=1200&auto=format&fit=crop",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/AKKodisAMG88Spa2022.jpg/1920px-AKKodisAMG88Spa2022.jpg","https://i.redd.it/akkodis-mercedes-amg-gt3-winner-of-the-2022-spa-24h-link-in-v0-twp5zl49ofwa1.jpg?width=1920&format=pjpg&auto=webp&s=41ddaebd373f37dbb87066857dfe3f332dda75f4",
         ],
       },
       {
-        name: "L. Rossi",
-        team: "AMG Customer Racing",
-        number: "18",
-        bio: "เด่นเรื่องการจัดการยางในอุณหภูมิสูง",
+        name: "Maximilian Günther",
+        team: "Mercedes‑AMG Team HRT",
+        number: "4",
+        bio: "นักแข่งชาวเยอรมันที่มีพื้นฐานสูงทั้งจากฟอร์มูลาร์และการเป็นผู้ทดสอบ/รีเซิร์ฟให้กับ Mercedes-AMG แต่สำหรับรายการ GT3 โดยเฉพาะ “Mercedes-AMG GT3",
         portrait:
-          "https://images.unsplash.com/photo-1517423568366-8b83523034fd?q=80&w=800&auto=format&fit=crop",
+          "https://static-files.formula-e.pulselive.com/drivers/4e287a6d-e2da-471a-9c8a-01141d6a1819/right/large/a4aa14e5-3812-425a-a4b6-310b4ad7023c.png",
         carPhotos: [
-          "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=1200&auto=format&fit=crop",
+          "https://www.paddock-legends.com/dokumente/img/gross/32429/mercedes-amg-gt3-evo-maximilian-goetz-no4-hrt-dtm-champion-2021-1-43.jpg","https://www.touringcartimes.com/img/2018/03/paf_vallelunga_test_dtm_2018.jpg",
         ],
       },
       {
-        name: "K. Nakamura",
-        team: "AMG GT3 Asia",
-        number: "27",
-        bio: "แม่นยำกับไลน์แคบ ๆ ในสนามเทคนิคอล",
+        name: "Lucas Auer",
+        team: "MANN‑FILTER",
+        number: "22",
+        bio: "มีประสบการณ์ทั้งในตลาดแข่งรถถนนแข่ง (GT) และทัวริงคาร์ (DTM) ส่งผลให้มีฝีมือหลากหลายทั้งสนามสั้นและสนามยาว",
         portrait:
-          "https://images.unsplash.com/photo-1520975922284-7b683fe8c4f1?q=80&w=800&auto=format&fit=crop",
+          "https://wieck-nissanao-production.s3.amazonaws.com/photos/4f2a2b46922aa8693603bb0151909d2cf00b6fc6/preview-928x522.jpg",
         carPhotos: [
-          "https://images.unsplash.com/photo-1527281400683-1aae2aa5a954?q=80&w=1200&auto=format&fit=crop",
+          "https://i.ebayimg.com/images/g/dM4AAeSw-UhobltZ/s-l1200.jpg","https://www.dtm-shop.com/dokumente/img/gross/36585/mercedes-amg-gt3-evo-lucas-auer-no22-winward-racing-winner-dtm-hockenheim-2021-1-18.jpg",
         ],
       },
       {
-        name: "D. Müller",
-        team: "AMG Pro",
-        number: "89",
+        name: "Daniel Juncadella",
+        team: "AKKodis ASP",
+        number: "8",
         bio: "ทำสถิติพิทสตอประยะสั้นเร็วที่สุดของทีม",
         portrait:
-          "https://images.unsplash.com/photo-1520975922284-bea5d7d2b0f9?q=80&w=800&auto=format&fit=crop",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8BssSJLagiAifWc1rpwevr7lZq0l0bMhhIg&s",
         carPhotos: [
-          "https://images.unsplash.com/photo-1604192249263-2ef5a7b2d5f7?q=80&w=1200&auto=format&fit=crop",
+          "https://res.cloudinary.com/adacmkv/image/upload/c_fill,w_400,h_225,q_auto,f_auto/news/220303-gtmasters-1_sndd0t","https://gt-place.com/wp-content/uploads/2023/01/2022-DTM-HHR-FR-SWOOSH-SRS-1040.jpg",
         ],
       },
     ],
