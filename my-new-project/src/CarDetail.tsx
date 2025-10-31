@@ -199,66 +199,66 @@ const DB: Record<string, CarDetailData> = {
     ],
   },
   "4": {
-    title: "Audi R8 LMS GT3 Evo II",
+    title: "BMW M4 GT3",
     drivers: [
       {
-        name: "หัง อี้ป๋อ (Wang Yi Bo)",
-        team: "Uno Racing Team",
-        number: "85",
-        bio: "หวัง อี้ป๋อและทีมได้เข้าร่วมการแข่งขัน China GT Championship ในปี 2025 โดยสามารถคว้าแชมป์ในรุ่น GT3 AM Class ในการแข่งขันรอบแรกที่เซี่ยงไฮ้มาได้",
+        name: "Madison Snow",
+        team: "Paul Miller Racing",
+        number: "1",
+        bio: "ในฤดูกาล 2023 เขาและทีม Paul Miller Racing คว้าแชมป์ในคลาส GTD สำหรับรถ #1 BMW M4 GT3",
         portrait:
-          "https://mintmagth.s3.ap-southeast-1.amazonaws.com/photos/shares/Mint%20People/2023/JUNE%202023/yibo%20evisu/6486b5488a472.JPG",
+          "https://bimmerlife.com/wp-content/uploads/2023/07/RD_LRP_22_639-875x583.jpg",
         carPhotos: [
-          "https://img2.51gt3.com/rac/article/202503/85a17143ed2a4660ab56a45064f4f007.jpg",
-          "https://mintmagth.s3.ap-southeast-1.amazonaws.com/photos/shares/Mint%20People/2023/JUNE%202023/yibo%20evisu/6486b5485955d.JPG",
+          "https://cdn10.bigcommerce.com/s-4df9uz5/products/41566/images/256391/TS0572-1__93422.1751574527.1280.1280.jpg?c=2",
+          "https://therandomvandals.com/wp-content/uploads/2024/08/0I5A5330.jpg",
         ],
       },
       {
-        name: "หัง อี้ป๋อ (Wang Yi Bo)",
-        team: "Uno Racing Team",
-        number: "85",
-        bio: "หวัง อี้ป๋อและทีมได้เข้าร่วมการแข่งขัน China GT Championship ในปี 2025 โดยสามารถคว้าแชมป์ในรุ่น GT3 AM Class ในการแข่งขันรอบแรกที่เซี่ยงไฮ้มาได้",
+        name: "Bryan Sellers",
+        team: "Paul Miller Racing",
+        number: "1",
+        bio: "เมื่อทีม Paul Miller Racing เปลี่ยนมาใช้ BMW M4 GT3 ในฤดูกาล 2022 พวกเขาคว้าชัยชนะในรายการที่ Long Beach ซึ่งเป็น “ชัยชนะแรกของ BMW M4 GT3” ในคลาส GTD ของ IMSA ด้วยคัน #1 ที่เขาขับร่วมกับ Madison Snow",
         portrait:
-          "https://mintmagth.s3.ap-southeast-1.amazonaws.com/photos/shares/Mint%20People/2023/JUNE%202023/yibo%20evisu/6486b5488a472.JPG",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVoVkUNJZgGvyhODJnDbfjcLmJyIXi10YsOT1XKI4OnWOn_vcx9ogULrvRdqmnOouipiE&usqp=CAU",
         carPhotos: [
-          "https://img2.51gt3.com/rac/article/202503/85a17143ed2a4660ab56a45064f4f007.jpg",
-          "https://mintmagth.s3.ap-southeast-1.amazonaws.com/photos/shares/Mint%20People/2023/JUNE%202023/yibo%20evisu/6486b5485955d.JPG",
+          "https://mediapool.bmwgroup.com/cache/P9/202406/P90557302/P90557302-watkins-glen-usa-21-23-june-2024-imsa-weathertech-sportscar-championship-gtd-pro-1-bmw-m4-gt3-paul-m-2248px.jpg",
+          "https://mediapool.bmwgroup.com/cache/P9/202204/P90458812/P90458812-paul-miller-racing-no-1-bmw-m4-gt3-grand-prix-of-long-beach-gtd-class-winners-600px.jpg",
         ],
       },
       {
-        name: "หัง อี้ป๋อ (Wang Yi Bo)",
-        team: "Uno Racing Team",
-        number: "85",
-        bio: "หวัง อี้ป๋อและทีมได้เข้าร่วมการแข่งขัน China GT Championship ในปี 2025 โดยสามารถคว้าแชมป์ในรุ่น GT3 AM Class ในการแข่งขันรอบแรกที่เซี่ยงไฮ้มาได้",
+        name: "Kelvin van der Linde",
+        team: "WRT",
+        number: "32",
+        bio: "เขาคว้าชัยชนะในรายการใหญ่หลายครั้ง เช่น ชนะ 24 Hours of Nürburgring (Nürburgring 24h) ในปี 2017, 2022 และ 2025.",
         portrait:
-          "https://mintmagth.s3.ap-southeast-1.amazonaws.com/photos/shares/Mint%20People/2023/JUNE%202023/yibo%20evisu/6486b5488a472.JPG",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8UuzcL7dwq2FVymFrBvP8XNVoHA44qREueg&s",
         carPhotos: [
-          "https://img2.51gt3.com/rac/article/202503/85a17143ed2a4660ab56a45064f4f007.jpg",
-          "https://mintmagth.s3.ap-southeast-1.amazonaws.com/photos/shares/Mint%20People/2023/JUNE%202023/yibo%20evisu/6486b5485955d.JPG",
+          "https://sportscar365.com/wp-content/uploads/2025/06/24h-175060516368581d6b-f1df54.jpg",
+          "https://www.hightekdiecastmodels.com.au/cdn/shop/files/2025_B12H_Winner_BMW.webp?v=1754168617",
         ],
       },
       {
-        name: "หัง อี้ป๋อ (Wang Yi Bo)",
-        team: "Uno Racing Team",
-        number: "85",
-        bio: "หวัง อี้ป๋อและทีมได้เข้าร่วมการแข่งขัน China GT Championship ในปี 2025 โดยสามารถคว้าแชมป์ในรุ่น GT3 AM Class ในการแข่งขันรอบแรกที่เซี่ยงไฮ้มาได้",
+        name: "Sheldon van der Linde",
+        team: "Schubert Motorsport",
+        number: "31",
+        bio: "ในฤดูกาล 2022 เขาคว้าแชมป์ DTM ขับ BMW M4 GT3 หมายเลข #31 ให้กับทีม Schubert Motorsport.",
         portrait:
-          "https://mintmagth.s3.ap-southeast-1.amazonaws.com/photos/shares/Mint%20People/2023/JUNE%202023/yibo%20evisu/6486b5488a472.JPG",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGqGLm-csDIwQwVjHtPs-QO5KhxMnrAED2HA&s",
         carPhotos: [
-          "https://img2.51gt3.com/rac/article/202503/85a17143ed2a4660ab56a45064f4f007.jpg",
-          "https://mintmagth.s3.ap-southeast-1.amazonaws.com/photos/shares/Mint%20People/2023/JUNE%202023/yibo%20evisu/6486b5485955d.JPG",
+          "https://mediapool.bmwgroup.com/cache/P9/202403/P90543671/P90543671-bmw-m-motorsport-schubert-motorsport-dtm-2024-31-bmw-m4-gt3-sheldon-van-der-linde-rsa-shell-600px.jpg",
+          "https://mediapool.bmwgroup.com/cache/P9/202403/P90543670/P90543670-bmw-m-motorsport-schubert-motorsport-dtm-2024-31-bmw-m4-gt3-sheldon-van-der-linde-rsa-shell-2400px.jpg",
         ],
       },
       {
-        name: "หัง อี้ป๋อ (Wang Yi Bo)",
-        team: "Uno Racing Team",
-        number: "85",
-        bio: "หวัง อี้ป๋อและทีมได้เข้าร่วมการแข่งขัน China GT Championship ในปี 2025 โดยสามารถคว้าแชมป์ในรุ่น GT3 AM Class ในการแข่งขันรอบแรกที่เซี่ยงไฮ้มาได้",
+        name: "Valentino Rossi",
+        team: "Belgium",
+        number: "46",
+        bio: "ผลงานของเขาโดดเด่นทั้งใน GT World Challenge Europe และ WEC โดยเฉพาะการชนะที่ Misano และฟอร์มโพลที่ Le Mans ด้วย แม้ว่าในสนามยาวหลายครั้งจะเจออุปสรรค แต่เขายังคงเป็นไดรเวอร์ที่น่าจับตามองในวงการแข่งรถยนต์ GT",
         portrait:
-          "https://mintmagth.s3.ap-southeast-1.amazonaws.com/photos/shares/Mint%20People/2023/JUNE%202023/yibo%20evisu/6486b5488a472.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/5/56/Valentino_Rossi_2017.jpg",
         carPhotos: [
-          "https://img2.51gt3.com/rac/article/202503/85a17143ed2a4660ab56a45064f4f007.jpg",
-          "https://mintmagth.s3.ap-southeast-1.amazonaws.com/photos/shares/Mint%20People/2023/JUNE%202023/yibo%20evisu/6486b5485955d.JPG",
+          "https://cdn.motorsport.com/images/mgl/2eAa7Al2/s1000/46-team-wrt-bmw-m4-gt3-valenti-1.jpg",
+          "https://cdn.bmwblog.com/wp-content/uploads/2025/07/bmw-m4-gt3-misano-valentino-rossi-01.jpg",
         ],
       }
     ]
