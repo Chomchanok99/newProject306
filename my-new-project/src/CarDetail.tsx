@@ -68,7 +68,7 @@ const DB: Record<string, CarDetailData> = {
         name: "Daniel Juncadella",
         team: "AKKodis ASP",
         number: "8",
-        bio: "ทำสถิติพิทสตอประยะสั้นเร็วที่สุดของทีม",
+        bio: "ปี 2023 กับทีม WeatherTech Racing ในรายการ IMSA SportsCar Championship หมวด GTD Pro เขาคว้าชัยในรายการ 24 Hours of Daytona และคว้าแชมป์ Michelin Endurance Cup",
         portrait:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8BssSJLagiAifWc1rpwevr7lZq0l0bMhhIg&s",
         carPhotos: [
@@ -81,54 +81,63 @@ const DB: Record<string, CarDetailData> = {
     title: "Porsche 991 GT3 R",
     drivers: [
       {
-        name: "A. Perez",
-        team: "Porsche GT Team",
-        portrait:
-          "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=800&auto=format&fit=crop",
-        carPhotos: [
-          "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=1200&auto=format&fit=crop",
-        ],
-      },
-      {
-        name: "B. Chen",
+        name: "Kevin Estre",
         team: "Manthey Racing",
+        number: "911",
+        bio: "ชนะ “24 Hours of Nürburgring” กับหมายเลข #59 (Manthey)",
         portrait:
-          "https://images.unsplash.com/photo-1544717307-996b815c338c?q=80&w=800&auto=format&fit=crop",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC-XBk-7tfDdp7hBN28glyzUn91kr1Z9DoVNdcVCARarUwfEXK-8BibWNMTblypTcJCRg&usqp=CAU",
         carPhotos: [
-          "https://images.unsplash.com/photo-1619767886558-efdc259cde1d?q=80&w=1200&auto=format&fit=crop",
+          "https://newsroom.porsche.com/.imaging/mte/porsche-templating-theme/image_1290x726/dam/pnr/2021/Motorsports/24-Hours-Nuerburgring/Breaking-News/gallery/M21_1734_fine.jpg/jcr%3Acontent/M21_1734_fine.jpg","https://www.autohebdo.fr/app/uploads/2025/06/estre-porsche-nurb-753x494.jpg",
         ],
       },
       {
-        name: "C. Meyer",
-        team: "Pro-Am",
+        name: "Laurens vanthoor",
+        team: "ÜS Team75 Bernhard",
+        number: "47",
+        bio: "ชนะ 24 Hours of Spa (ก่อนขับ Porsche) และแชมป์ Blancpain GT Series",
         portrait:
-          "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=800&auto=format&fit=crop",
+          "https://res.cloudinary.com/dmwcbhehi/image/upload/c_fill,w_3840,g_auto/f_auto/q_auto/v1/Carousel/Laurens%20V/Vanthoor-carousel-picture1?_a=BAVAZGDX0",
         carPhotos: [
-          "https://images.unsplash.com/photo-1558980664-10e7170b57a7?q=80&w=1200&auto=format&fit=crop",
+          "https://press.porsche.com/download/prod/presse_pag/PressBasicData.nsf/Download?OpenAgent=&attachmentid=1396644&show=1","https://images.squarespace-cdn.com/content/v1/5e67c0b15cc05f67605d7d5c/22590e6f-6d18-46f2-969f-f798cbeedb48/porschesport.jpg",
         ],
       },
       {
-        name: "D. Sato",
-        team: "KCMG",
+        name: "Earl Bamber",
+        team: "GPX Racing",
+        number: "22",
+        bio: "ในฤดูกาล 2021 เขาขับรถคัน #22 ให้ GPX Racing/Porsche 911 GT3 R (Type 991) ในรายการ Endurance เช่น Spa และควอลิฟายทำเวลาได้ดี",
         portrait:
-          "https://images.unsplash.com/photo-1527980965255-d3b416303d12?q=80&w=800&auto=format&fit=crop",
+          "https://newsroom.porsche.com/.imaging/mte/porsche-templating-theme/image_1290x726/dam/press-kits/Motorsport-Guide-2019/03-Werksfahrer/Earl-Bamber/Werksfahrer_crop_landscape1.jpg/jcr%3Acontent/Werksfahrer_crop_landscape1.jpg",
         carPhotos: [
-          "https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=1200&auto=format&fit=crop",
+          "https://earlbambermotorsport.com/wp-content/uploads/2021/10/timthumb-16.jpg","https://www.thailandsuperseries.net/wp-content/uploads/2022/03/277362847_2169235539912673_4705538289333545187_n-1024x682.jpg",
         ],
       },
       {
-        name: "E. Novak",
-        team: "Herberth Motorsport",
+        name: "Lucas Auer",
+        team: "MANN‑FILTER",
+        number: "48",
+        bio: "ในฤดูกาล 2025 เมื่อขับรถ #48 ให้ Mercedes-AMG Team MANN-FILTER เขาทำโพเดียมหลายครั้ง เช่น อันดับ 1 ที่ Monza, อันดับ 2 ที่ Nürburgring",
         portrait:
-          "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJqAT4jcweLP8JLdSebIURG9UudULvKcdvEA&s",
         carPhotos: [
-          "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=1200&auto=format&fit=crop",
+          "https://www.gt-world-challenge-europe.com/timthumb.php?w=1000&src=%2Fimages%2Fgallery%2F2024%2F222%2F1570%2F%2F48-1MDH6229.jpg","https://www.gt-world-challenge-europe.com/timthumb.php?w=1000&src=%2Fimages%2Fgallery%2F2024%2F221%2F1540%2F%2F48-2MDH0533.jpg",
+        ],
+      },
+      {
+        name: "Daniel Juncadella",
+        team: "Manthey EMA",
+        number: "911",
+        bio: "ทำสถิติพิทสตอประยะสั้นเร็วที่สุดของทีม",
+        portrait:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8BssSJLagiAifWc1rpwevr7lZq0l0bMhhIg&s",
+        carPhotos: [
+          "https://images.squarespace-cdn.com/content/v1/60915b23c38bc0460bee7bc8/1747857344828-IZ43X0FUMUJRI1V85O6L/N51_9116%2B911%2B6.jpg","https://newsroom.porsche.com/.imaging/mte/porsche-templating-theme/image_1290x726/dam/pnr/2023/Motorsports/24h-Rennen-Nuerburgring/Race-Report/M23_2777_fine.jpg/jcr%3Acontent/M23_2777_fine.jpg",
         ],
       },
     ],
   },
   "3": {
-    // ✅ เปลี่ยนชื่อรุ่นให้เป็น Evo II ตามที่ต้องการ
     title: "Audi R8 LMS GT3 Evo II",
     drivers: [
       {
@@ -190,19 +199,70 @@ const DB: Record<string, CarDetailData> = {
     ],
   },
   "4": {
-    title: "Porsche 911 GT3 RS (Track)",
-    drivers: new Array(5).fill(0).map((_, i) => ({
-      name: `Driver ${i + 1}`,
-      team: "Track Day",
-      number: "3",
-      bio: "",
-      portrait:
-        "https://images.unsplash.com/photo-1520975922284-7b683fe8c4f1?q=80&w=800&auto=format&fit=crop",
-      carPhotos: [
-        "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=1200&auto=format&fit=crop",
-      ],
-    })),
-  },
+    title: "Audi R8 LMS GT3 Evo II",
+    drivers: [
+      {
+        name: "หัง อี้ป๋อ (Wang Yi Bo)",
+        team: "Uno Racing Team",
+        number: "85",
+        bio: "หวัง อี้ป๋อและทีมได้เข้าร่วมการแข่งขัน China GT Championship ในปี 2025 โดยสามารถคว้าแชมป์ในรุ่น GT3 AM Class ในการแข่งขันรอบแรกที่เซี่ยงไฮ้มาได้",
+        portrait:
+          "https://mintmagth.s3.ap-southeast-1.amazonaws.com/photos/shares/Mint%20People/2023/JUNE%202023/yibo%20evisu/6486b5488a472.JPG",
+        carPhotos: [
+          "https://img2.51gt3.com/rac/article/202503/85a17143ed2a4660ab56a45064f4f007.jpg",
+          "https://mintmagth.s3.ap-southeast-1.amazonaws.com/photos/shares/Mint%20People/2023/JUNE%202023/yibo%20evisu/6486b5485955d.JPG",
+        ],
+      },
+      {
+        name: "หัง อี้ป๋อ (Wang Yi Bo)",
+        team: "Uno Racing Team",
+        number: "85",
+        bio: "หวัง อี้ป๋อและทีมได้เข้าร่วมการแข่งขัน China GT Championship ในปี 2025 โดยสามารถคว้าแชมป์ในรุ่น GT3 AM Class ในการแข่งขันรอบแรกที่เซี่ยงไฮ้มาได้",
+        portrait:
+          "https://mintmagth.s3.ap-southeast-1.amazonaws.com/photos/shares/Mint%20People/2023/JUNE%202023/yibo%20evisu/6486b5488a472.JPG",
+        carPhotos: [
+          "https://img2.51gt3.com/rac/article/202503/85a17143ed2a4660ab56a45064f4f007.jpg",
+          "https://mintmagth.s3.ap-southeast-1.amazonaws.com/photos/shares/Mint%20People/2023/JUNE%202023/yibo%20evisu/6486b5485955d.JPG",
+        ],
+      },
+      {
+        name: "หัง อี้ป๋อ (Wang Yi Bo)",
+        team: "Uno Racing Team",
+        number: "85",
+        bio: "หวัง อี้ป๋อและทีมได้เข้าร่วมการแข่งขัน China GT Championship ในปี 2025 โดยสามารถคว้าแชมป์ในรุ่น GT3 AM Class ในการแข่งขันรอบแรกที่เซี่ยงไฮ้มาได้",
+        portrait:
+          "https://mintmagth.s3.ap-southeast-1.amazonaws.com/photos/shares/Mint%20People/2023/JUNE%202023/yibo%20evisu/6486b5488a472.JPG",
+        carPhotos: [
+          "https://img2.51gt3.com/rac/article/202503/85a17143ed2a4660ab56a45064f4f007.jpg",
+          "https://mintmagth.s3.ap-southeast-1.amazonaws.com/photos/shares/Mint%20People/2023/JUNE%202023/yibo%20evisu/6486b5485955d.JPG",
+        ],
+      },
+      {
+        name: "หัง อี้ป๋อ (Wang Yi Bo)",
+        team: "Uno Racing Team",
+        number: "85",
+        bio: "หวัง อี้ป๋อและทีมได้เข้าร่วมการแข่งขัน China GT Championship ในปี 2025 โดยสามารถคว้าแชมป์ในรุ่น GT3 AM Class ในการแข่งขันรอบแรกที่เซี่ยงไฮ้มาได้",
+        portrait:
+          "https://mintmagth.s3.ap-southeast-1.amazonaws.com/photos/shares/Mint%20People/2023/JUNE%202023/yibo%20evisu/6486b5488a472.JPG",
+        carPhotos: [
+          "https://img2.51gt3.com/rac/article/202503/85a17143ed2a4660ab56a45064f4f007.jpg",
+          "https://mintmagth.s3.ap-southeast-1.amazonaws.com/photos/shares/Mint%20People/2023/JUNE%202023/yibo%20evisu/6486b5485955d.JPG",
+        ],
+      },
+      {
+        name: "หัง อี้ป๋อ (Wang Yi Bo)",
+        team: "Uno Racing Team",
+        number: "85",
+        bio: "หวัง อี้ป๋อและทีมได้เข้าร่วมการแข่งขัน China GT Championship ในปี 2025 โดยสามารถคว้าแชมป์ในรุ่น GT3 AM Class ในการแข่งขันรอบแรกที่เซี่ยงไฮ้มาได้",
+        portrait:
+          "https://mintmagth.s3.ap-southeast-1.amazonaws.com/photos/shares/Mint%20People/2023/JUNE%202023/yibo%20evisu/6486b5488a472.JPG",
+        carPhotos: [
+          "https://img2.51gt3.com/rac/article/202503/85a17143ed2a4660ab56a45064f4f007.jpg",
+          "https://mintmagth.s3.ap-southeast-1.amazonaws.com/photos/shares/Mint%20People/2023/JUNE%202023/yibo%20evisu/6486b5485955d.JPG",
+        ],
+      }
+    ]
+  }
 };
 // -------------------------------------------------------------
 
