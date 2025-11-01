@@ -1,5 +1,5 @@
 /* =========================================================
-   0) THEME TOKENS (ปรับสี/ขนาดรวมที่นี่)
+   THEME TOKENS
    ======================================================= */
 :root{
   --brand: #c86b6b;
@@ -17,11 +17,11 @@
 }
 
 /* =========================================================
-   1) APP BASE
+   APP BASE
    ======================================================= */
 .app-container{
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background: var(--bg-app);
   margin: 0;
   padding: 0;
@@ -31,12 +31,12 @@
 }
 
 /* =========================================================
-   2) NAVBAR
+   NAVBAR
    ======================================================= */
 .navbar{
   background: var(--brand);
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-end;      /* ปุ่มอยู่ฝั่งขวา */
   align-items: center;
   padding: 10px 30px;
 }
@@ -58,7 +58,7 @@
 }
 
 /* =========================================================
-   3) HOME (หน้าแรก)
+   HOME (หน้าแรก)
    ======================================================= */
 .home-shell{
   width: min(1100px, 92vw);
@@ -74,7 +74,6 @@
   margin: 0 0 10px;
 }
 
-/* เส้นไฮไลต์ใต้หัวเรื่อง */
 .title-underline{
   display: block;
   width: clamp(180px, 28vw, 360px);
@@ -85,7 +84,6 @@
   box-shadow: 0 4px 14px rgba(200,107,107,.35);
 }
 
-/* รูปหน้าแรก */
 .home-image{
   width: min(600px, 60%);
   max-width: 700px;
@@ -103,9 +101,8 @@
   outline-color: rgba(59,15,15,.25);
 }
 
-/* ปุ่มใต้รูป (หน้าแรก) */
 .button-section{ display:flex; justify-content:center; margin-bottom:60px; }
-.button-section.tight{ margin-top: 18px; }
+.button-section.tight{ margin-top:18px; }
 
 .info-button{
   background: var(--brand);
@@ -120,7 +117,6 @@
 }
 .info-button:hover{ background:#b35353; }
 
-/* เวอร์ชันปุ่มหลัก (เม็ดยา) */
 .info-button.primary{
   background: var(--brand);
   border-radius: 999px;
@@ -132,7 +128,7 @@
 .info-button.primary:active{ transform: translateY(1px); }
 
 /* =========================================================
-   4) LOGIN
+   LOGIN
    ======================================================= */
 .login-page{ background:#e9e9e9; }
 
@@ -145,7 +141,6 @@
   color: #333;
 }
 
-/* การ์ดฟอร์ม */
 .login-card{
   width: min(940px, 92vw);
   padding: clamp(24px, 4vw, 48px);
@@ -155,7 +150,6 @@
   border: 1px solid rgba(0,0,0,.06);
 }
 
-/* หัวข้อ */
 .login-title{
   text-align: center;
   font-size: clamp(2.2rem, 4vw, 3.4rem);
@@ -164,7 +158,6 @@
   margin: 0 0 clamp(20px, 3vw, 36px);
 }
 
-/* ฟอร์ม */
 .login-form{
   display: grid;
   grid-template-columns: 220px 1fr;
@@ -214,9 +207,9 @@
 .login-submit:active{ transform: translateY(1px); }
 
 /* =========================================================
-   5) CAR (หน้าหมวดรถ)
+   CAR (หน้าหมวดรถ)
    ======================================================= */
-.car-page{ background: #fff; }
+.car-page{ background:#fff; }
 
 .car-container{
   width: min(1200px, 92vw);
@@ -255,7 +248,7 @@
   object-fit: cover;
   display: block;
 }
-.car-caption{
+.car-caption {
   margin-top: 10px;
   background: var(--brand-dark);
   color: #fff;
@@ -263,16 +256,27 @@
   border-radius: 6px;
   font-weight: 700;
   text-align: center;
-  font-size: 1rem;
-  transition: .3s;
+  font-size: 1.1rem;
+  transition: 0.3s;
   cursor: pointer;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
-.car-caption:hover{ background:#5b1b1b; transform: scale(1.03); }
-
+.car-caption:hover {
+  background: #5b1b1b;
+  transform: scale(1.03);
+}
 /* =========================================================
-   6) CAR DETAIL (หัวข้อ + รายชื่อนักแข่งทีละคน)
+   CAR DETAIL (หัวข้อ + รายชื่อนักแข่งทีละคน)
    ======================================================= */
-.detail-page{ background:#fff; }
+.detail-page {
+  background: #fff;
+  color: #2b1e1e;
+  padding: 20px;
+}
+
 
 .detail-shell{
   width: min(1200px, 94vw);
@@ -280,12 +284,14 @@
 }
 
 .detail-header{ text-align:center; margin: 8px 0 18px; }
-.detail-title{
-  color: var(--text-main);
+.detail-title {
+  color: #ffdede; /* ✅ สีชมพูอ่อนสว่าง */
   font-weight: 800;
-  font-size: clamp(1.9rem, 3.2vw, 2.6rem);
+  font-size: clamp(2rem, 3.4vw, 2.8rem);
   margin: 0 0 8px;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3); /* เพิ่มเงาให้เด่น */
 }
+
 .detail-underline{
   display:inline-block;
   width: clamp(160px, 26vw, 320px);
@@ -295,7 +301,6 @@
   box-shadow: 0 4px 12px rgba(200,107,107,.28);
 }
 
-/* รายชื่อนักแข่ง (เรียงแนวตั้ง) */
 .driver-grid{
   display: flex;
   flex-direction: column;
@@ -310,8 +315,6 @@
   box-shadow: var(--shadow-2);
   border: 1px solid rgba(0,0,0,.06);
 }
-
-/* หัวการ์ดนักแข่ง */
 .driver-header{
   display: flex;
   gap: 18px;
@@ -330,12 +333,11 @@
   margin: 0 0 4px;
   font-size: clamp(1.2rem, 2vw, 1.5rem);
   font-weight: 800;
-  color: var(--text-main);
+  color: var(--brand);
 }
 .driver-team{ margin: 0 0 6px; color: var(--text-sub); font-weight: 700; }
 .driver-bio{ margin: 0; color: #4b4b4b; line-height: 1.55; }
 
-/* รูปรถของนักแข่ง */
 .car-thumb-grid{
   margin-top: 14px;
   display: grid;
@@ -352,14 +354,157 @@
 }
 
 /* =========================================================
-   7) RESPONSIVE
+   ADMIN POPUP / ADMIN PAGE (พื้นฐาน)
    ======================================================= */
-@media (max-width: 768px){
-  /* Login: ฟอร์มเรียงลง */
-  .login-form{ grid-template-columns: 1fr; }
-  .login-label{ justify-self: start; margin-top: 6px; }
+.admin-overlay{
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.admin-box{
+  background: #fff;
+  padding: 28px 36px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 10px 24px rgba(0,0,0,.4);
+  max-width: 320px;
+  width: 90%;
+}
+.admin-box h2{
+  margin-bottom: 14px;
+  color: var(--brand-dark);
+  font-weight: 700;
+}
+.admin-box input{
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 14px;
+}
+.btn-row{ display:flex; justify-content:center; gap:10px; }
+.btn-row button{
+  background: var(--brand);
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: .3s;
+}
+.btn-row button:hover{ background:#a85151; }
 
-  /* Car: กริดเหลือ 1 คอลัมน์ */
-  .car-grid{ grid-template-columns: 1fr; }
+.admin-page {
+  background: #fff;
+  color: #2e1b1b;
+  font-family: var(--font-main);
+  padding: 40px 20px 80px;
+  min-height: 100vh;
+
+}.admin-add input{
+  padding: 6px;
+  margin-right: 6px;
+  border: 1px solid #aaa;
+  border-radius: 6px;
 }
 
+.admin-add {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.admin-add button {
+  background: var(--brand);
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 12px 24px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 16px rgba(200, 107, 107, 0.35);
+}
+
+.admin-car button{
+  margin-left: 8px;
+  background: var(--brand);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+.admin-add button:hover {
+  background: #b35353;
+  transform: translateY(-2px);
+}
+.admin-car {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fafafa;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  margin: 30px auto;
+  width: min(900px, 95%);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* รูปรถ */
+.admin-car img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* ปุ่มแอ็คชัน (แก้ชื่อ แก้รูป ลบ) */
+.admin-actions {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 14px;
+  flex-wrap: wrap;
+}
+
+.admin-actions button {
+  background: var(--brand-dark);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.25s;
+  font-size: 0.95rem;
+}
+.admin-actions button:hover {
+  background: #a63d3d;
+  transform: translateY(-1px);
+}
+
+/* ปุ่มลบเน้นสีแดง */
+.admin-actions .delete {
+  background: #e24b4b;
+}
+.admin-actions .delete:hover {
+  background: #c93333;
+}
+
+/* =========================================================
+   RESPONSIVE
+   ======================================================= */
+@media (max-width: 768px){
+  .login-form{ grid-template-columns: 1fr; }
+  .login-label{ justify-self: start; margin-top: 6px; }
+  .car-grid{ grid-template-columns: 1fr; }
+}

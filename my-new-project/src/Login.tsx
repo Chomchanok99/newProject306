@@ -11,10 +11,7 @@ function Login() {
 
   return (
     <div className="app-container login-page">
-      {/* แถบด้านบน */}
-      <nav className="navbar">
-        <button className="admin-button">แอดมิน</button>
-      </nav>
+  
 
       {/* การ์ดฟอร์มกลางหน้า */}
       <div className="login-content">
